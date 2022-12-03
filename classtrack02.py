@@ -21,8 +21,8 @@ def factorization_number(n):
                 continue
     return(multiple_list)
 
-my_list1 = [factorization_number(a)]
-my_list2 = [factorization_number(b)]
+my_list1 = factorization_number(a)
+my_list2 = factorization_number(b)
 print(f'my_list1 = {my_list1}')
 print(f'my_list2 = {my_list2}')
 
